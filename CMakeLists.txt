@@ -64,7 +64,6 @@ lxqt_app_translation_loader(lxqt-openssh_QM_LOADER ${PROJECT_NAME})
 
 add_executable(lxqt-openssh-askpass
     ${lxqt-openssh-askpass_SRCS}
-    ${TRS}
     ${QM_FILES}
     ${lxqt-openssh_QM_LOADER}
 )
